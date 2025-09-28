@@ -1,5 +1,5 @@
 ﻿using Tyuiu.GurinchukAV.Sprint1.Task3.V2.Lib;
-namespace Tyuiu.GurinchukAV.Sprint1.Task2.V14
+namespace Tyuiu.GurinchukAV.Sprint1.Task3.V2
 {
     class Program
     {
