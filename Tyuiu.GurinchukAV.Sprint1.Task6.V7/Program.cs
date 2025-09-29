@@ -1,0 +1,40 @@
+﻿using Tyuiu.GurinchukAV.Sprint1.Task6.V7.Lib;
+namespace Tyuiu.GurinchukAV.Sprint1.Task6.V7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DataService ds = new DataService();
+
+            Console.Title = "Спринт #1 | Выполнила : Гуринчук А. В. | ИБКСб-25-1";
+            //Длина строки 75 символов
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #1                                                               *");
+            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
+            Console.WriteLine("* Задание #6                                                              *");
+            Console.WriteLine("* Вариант #7                                                              *");
+            Console.WriteLine("* Выполнила: Гуринчук Анастасия Витальевна | ИБКСб-25-1                   *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу: пользователь вводит текст.                          *");
+            Console.WriteLine("* Напечатать все слова, удалив из них последнюю букву.                    *");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("***************************************************************************");
+
+            Console.Write("Введите текст: ");
+            string inputText = Console.ReadLine();
+
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+
+            string result = ds.DeleteLastLetter(inputText);
+            Console.WriteLine($"Текст после удаления последних букв: {result}");
+
+            Console.ReadKey();
+        }
+    }
+}
