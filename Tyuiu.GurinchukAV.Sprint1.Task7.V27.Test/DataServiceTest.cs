@@ -1,9 +1,8 @@
 ﻿using Tyuiu.GurinchukAV.Sprint1.Task7.V27.Lib;
-
 namespace Tyuiu.GurinchukAV.Sprint1.Task7.V27.Test
 {
     [TestClass]
-    public class DataServiceTest
+    public sealed class DataServiceTest
     {
         [TestMethod]
         public void ValidExpression()

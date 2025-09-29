@@ -7,7 +7,7 @@ namespace Tyuiu.GurinchukAV.Sprint1.Task7.V27
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.Title = "Спринт #1 | Выполнила: Гуринчук.А.В | ИБКСб-25-1";
+            Console.Title = "Спринт #1 | Выполнила: Гуринчук А.В. | ИБКСб-25-1";
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
